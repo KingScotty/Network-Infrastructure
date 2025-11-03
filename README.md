@@ -3,7 +3,7 @@ A combined repo for my IT2035C – Networking Infrastructure Management class la
 Lab 2 – Basic routed network with DHCP
 Lab 3 – Routed network with DHCP, DNS, and HTTP (PCs resolve soit.edu to the DMZ web server)
 
-*Lab 2 – DHCP (overview)
+**Lab 2 – DHCP (overview)**
 Single router with multiple LANs
 Server provides DHCP scopes for each LAN
 PCs obtain addresses dynamically (no static IPs on clients)
@@ -12,7 +12,7 @@ PCs show DHCP-assigned IP, mask, gateway, DNS
 ping between subnets succeeds
 Router interfaces are up/up
 
-*Lab 3 - DHCP, DNS and HTTP (overview)
+**Lab 3 - DHCP, DNS and HTTP (overview)**
 Single router, 3 user LANs + DMZ with a server
 Server static IP: 192.168.231.254/21, GW 192.168.224.1
 Services enabled on the server:
@@ -30,4 +30,10 @@ PC gets DHCP lease (correct mask/gateway/DNS)
 nslookup soit.edu returns 192.168.231.254
 Browser loads http://soit.edu (shows name/greeting)
 Diagram annotated with all static addresses + name/lab number
+
+**How to open**
+Open .pkt files in Cisco Packet Tracer (v8.x+).
+Wait a few seconds for links to come up, then verify:
+Lab 2: DHCP leases on PCs.
+Lab 3: Open PC browser → soit.edu.
 
